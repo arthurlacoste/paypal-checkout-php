@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="snapshot.jpg">
+   <img src="icon.svg" width="100" height="100" alt="PayPal Checkout for Craft Commerce icon">
   <h1 align="center">Paypal Checkout PHP</h1>
 </p>
 
@@ -13,6 +13,12 @@ You only need :
 2. provide the client ID and secret of your PayPal app.
 
 ## How to run the sample
+
+Here is a picture of the example (if you like sharks, you will love this sample) :
+
+<p align="center">
+  <img src="snapshot.jpg">
+</p>
 
 1. Clone the repository.
 
