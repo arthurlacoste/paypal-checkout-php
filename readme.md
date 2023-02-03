@@ -8,7 +8,7 @@ A simple example of how to use PayPal Checkout in PHP.
 This straightforward example shows you how to use PayPal Checkout to process a payment.
 You only need :
 
-1. file class ('PayPalController.php') that contains the code to process the payment.
+1. file class `PayPalController.php` that contains the code to process the payment.
 
 2. provide the client ID and secret of your PayPal app.
 
@@ -41,3 +41,7 @@ echo $response;
 ```
 
 6. Everything is ready, now you can store the payment in your database by updating handlePayment() method in 'PaypalController.php' file. Another simple idea is to send an email to you & the customer with the payment details.
+
+## Licence
+
+MIT License
