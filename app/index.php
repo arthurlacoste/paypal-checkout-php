@@ -96,11 +96,6 @@ require 'config.php';
                                                 console.log('Capture result', orderData, JSON.stringify(orderData, null, 2));
                                                 const transaction = orderData.purchase_units[0].payments.captures[0];
 
-                                                $.ajaxSetup({
-                                                    headers: {
-                                                        'X-CSRF-TOKEN': $('meta[name="csrf-token"]').attr('content')
-                                                    }
-                                                });
                                                 // Send the transaction data to the server
                                                 $.post('api.php', {
                                                     orderData: orderData,
