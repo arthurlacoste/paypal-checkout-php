@@ -1,0 +1,16 @@
+<?php
+
+
+putenv("ENV=DEV");
+
+if(getenv('ENV')=='DEV') {
+    $PAYPAL_CLIENT_ID = '';
+    $PAYPAL_CLIENT_SECRET = '';
+} else {
+    $PAYPAL_CLIENT_ID = '';
+    $PAYPAL_CLIENT_SECRET = '';
+}
+
+
+putenv("PAYPAL_CLIENT_ID=$PAYPAL_CLIENT_ID");
+putenv("PAYPAL_CLIENT_SECRET=$PAYPAL_CLIENT_SECRET");
